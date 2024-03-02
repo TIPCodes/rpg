@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kdam+Thmor+Pro&family=Nova+Square&family=Oswald:wght@300&family=Roboto:ital,wght@1,300&family=Rubik+Bubbles&family=Salsa&display=swap');
+
+body {
+    background-color: darkcyan;
+    align-items: center;
+    background-image: url("assets/animal-2027043_1280.png");
+    background-size: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: lightgreen;
+    font-family: 'Salsa', cursive;
+}
+
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Salsa', cursive;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+}
+
+#controls,
+#stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: lightgreen;
+    background-image: linear-gradient(lightgreen, lightgreen);
+    border: 3px solid lightgreen;
+    font-family: 'Salsa', cursive;
+}
+
+#game {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.stat {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#controls button {
+    background-color: #4caf50;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#controls button:hover {
+    background-color: #45a049;
+    color: #fff;
+    /* You can customize the text color on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle box shadow on hover */
+}
+
+#monsterStats {
+    margin-top: 20px;
+}
+
+#text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#controls button {
+    /* Existing styles */
+    display: inline-block;
+    /* Added to center the buttons horizontally */
+}
